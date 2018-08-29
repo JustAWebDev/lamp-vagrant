@@ -7,7 +7,7 @@ sudo apt-get -y upgrade
 
 printf "\n--- Installing Apache & PHP ---\n"
 # install apache, php7, php-curl & php-mcrypt
-sudo apt-get install -y apache2 php libapache2-mod-php php-curl php-mcrypt php-zip
+sudo apt-get install -y apache2 php libapache2-mod-php php-curl php-mcrypt php-zip php-gd php-xml php-mbstring
 
 printf "\n--- Installing MySQL ---\n"
 # install mysql and give password to installer
